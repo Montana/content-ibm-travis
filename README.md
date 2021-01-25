@@ -1,4 +1,4 @@
-# Power Build
+# IBM Power Build
 
 Adding Power (`ppc64le`) support to a project in Travis is almost as easy as one, two, three. 
 
@@ -43,4 +43,4 @@ You can see the build results from travis-ci.com, right [here](https://travis-ci
 
 # For more information 
 
-For more information, please visit [these](https://github.com/Montana/manifest) this helpful repository made by Travis CI for more information on more complex builds when involving IBM Power/Z.
+For more information, please visit [this](https://github.com/Montana/manifest) helpful repository made by Travis CI for more information on more complex builds when involving IBM Power/Z.
