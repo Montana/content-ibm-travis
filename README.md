@@ -16,7 +16,7 @@ Now adding `Z` is just as simple, right after `os: linux`, you'll want to add:
 
 Now your Travis CI build is running `IBM Z`. So we've attatched an example if we wanted to build a multi arch Travis CI project (both `s390x` and `ppc64`) in C++.
 
-# The .yml file 
+# Travis CI
 
 The `.travis.yml` file is where the set of instructions will go like `os: linux` and definining your architecutre. Here is a sample `.travis,yml` for our `Hello World` C++ project: 
 
