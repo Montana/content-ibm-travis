@@ -6,7 +6,10 @@ First what you'll want to do in the `.travis.yml` file for your project is find 
 
 `arch: ppc64le`
 
-This is the `arch` hook, and calls the Power build to Travis CI. Now your project is running Power! 
+This is the `arch` hook, and calls the Power build to Travis CI. Now your project is running Power! It's also important to remember these two things:
+
+`os: linux` Intel based build
+`arch: ppc64le` Power based build
 
 # IBM Z
 
