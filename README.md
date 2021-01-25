@@ -17,7 +17,7 @@ Now adding `Z` is just as simple, right after `os: linux`, you'll want to add:
 
 `arch: s390x`
 
-Now your project build is running `IBM Z`. We have attatched an example if we wanted to build a [multi arch](https://docs.travis-ci.com/user/multi-cpu-architectures/) Travis CI project (both `s390x` and `ppc64`) in our C++ project.
+Now your project build is running `IBM Z`. We have attatched an example if we wanted to build a [multi arch](https://docs.travis-ci.com/user/multi-cpu-architectures/) Travis CI project (both `s390x` and `ppc64le`) in our C++ project.
 
 # Travis CI
 
