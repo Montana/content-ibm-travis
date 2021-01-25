@@ -6,7 +6,7 @@ First what you'll want to do in the `.travis.yml` file for your project is find 
 
 `arch: ppc64le`
 
-This is the `arch` hook, and calls the Power build to Travis CI.
+This is the `arch` hook, and calls the Power build to Travis CI. Now your project is running Power! 
 
 # IBM Z
 
@@ -14,7 +14,7 @@ Now adding `Z` is just as simple, right after `os: linux`, you'll want to add:
 
 `arch: s390x`
 
-Now your Travis CI build is running `IBM Z`. So we've attatched an example if we wanted to build a multi arch Travis CI project (both `s390x` and `ppc64`) in C++.
+Now your project build is running `IBM Z`. We have attatched an example if we wanted to build a [multi arch](https://docs.travis-ci.com/user/multi-cpu-architectures/) Travis CI project (both `s390x` and `ppc64`) in our C++ project.
 
 # Travis CI
 
