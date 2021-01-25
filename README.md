@@ -2,7 +2,7 @@
 
 Adding Power (`ppc64le`) support to a project in Travis is almost as easy as one, two, three. 
 
-First what you'll want to do in the `.travis.yml` file for your project, find the `os: linux` line. This is what tells Travis CI to perform a Linux build. So it would look something like this:
+First what you'll want to do in the `.travis.yml` file for your project is find the `os: linux` line. This is what tells Travis CI to perform a Linux build. Then define your arch right under that, doing that would look something like this:
 
 `arch: ppc64le`
 
